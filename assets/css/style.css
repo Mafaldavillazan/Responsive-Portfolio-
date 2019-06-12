@@ -166,7 +166,7 @@ body{
     margin: 150px;
     padding: 30px;
     height: 600px;
-    width: 76%;
+    width: 800px;
     margin-left: 10%;
     margin-bottom: 30px;
 
@@ -306,4 +306,26 @@ textarea{
     
     padding-top: 30px;
     padding-bottom: 5px;
+}
+
+/*Exercise for media quieres*/
+
+@media screen and (max-width:980px){
+    .portfolio{
+        width: 600px;
+    }
+
+    .imagebox{
+        width: 70%;
+        padding:6px;
+    }
+
+}
+
+@media screen and (max-width:768px){
+    
+}
+
+@media screen and (max-width:640px){
+    
 }
