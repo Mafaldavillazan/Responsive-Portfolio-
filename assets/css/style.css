@@ -121,11 +121,15 @@ body{
 
 .imagebox{
     position: relative;
-    width: 80%;
-    height: 40%;
+    width: 800px;
+    height: 250px;
 }
 
 .image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
     width: 200px;
     height: auto;
 }
@@ -136,11 +140,12 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 
-    width: 70%;
+    padding-top: 30px;
+    width: 60%;
     
     position: absolute;
     top: 0px;
-    left: 300px;
+    left: 250px;
 }
 
 .parragraph-2{
@@ -316,16 +321,54 @@ textarea{
     }
 
     .imagebox{
-        width: 70%;
-        padding:6px;
+        width: 500px;
+    }
+
+    .image{
+        width: 230px;
+        height: auto;
+    }
+
+    .parragraph-2{
+        margin-top: 30px;
     }
 
 }
 
 @media screen and (max-width:768px){
+    .portfolio{
+        width: 500px;
+        height: 600px;
+    }
+
+    .imagebox{
+        width: 400px;
+    }
+    .image{
+        width: 250px;
+        height: auto;
+    }
+    .parragraph{
+        left: 250px
+    }
+    .parragraph-2{
+        margin: 30px
+    }
+
+    .parragraph,.parragraph-2{
+        font-size: 13px
+    }
     
 }
 
 @media screen and (max-width:640px){
+
+    .portfolio{
+        width: 600px;
+    }
+
+    .imagebox{
+        width: 300px;
+    }
     
 }
