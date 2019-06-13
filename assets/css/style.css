@@ -119,10 +119,11 @@ body{
     color:white;
 }
 
+
 .imagebox{
-    position: relative;
-    width: 800px;
-    height: 250px;
+    position: absolute;
+    width: 90%;
+    height: 700px;
 }
 
 .image {
@@ -151,6 +152,11 @@ body{
 .parragraph-2{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    width: 100%;
+
+    position: absolute;
+    top: 300px;
+    left: 0px;
 }
 
 
@@ -317,11 +323,12 @@ textarea{
 
 @media screen and (max-width:980px){
     .portfolio{
-        width: 600px;
+        width: 650px;
+        height: 650px;
     }
 
     .imagebox{
-        width: 500px;
+        width: 600px;
     }
 
     .image{
@@ -329,16 +336,12 @@ textarea{
         height: auto;
     }
 
-    .parragraph-2{
-        margin-top: 30px;
-    }
-
 }
 
 @media screen and (max-width:768px){
     .portfolio{
         width: 500px;
-        height: 600px;
+        height: 700px;
     }
 
     .imagebox{
@@ -351,9 +354,6 @@ textarea{
     .parragraph{
         left: 250px
     }
-    .parragraph-2{
-        margin: 30px
-    }
 
     .parragraph,.parragraph-2{
         font-size: 13px
@@ -363,12 +363,90 @@ textarea{
 
 @media screen and (max-width:640px){
 
+    .head{
+        width: 100%;
+        height: 10px;
+        font-size: 14px;
+        padding: 15px;
+        margin: 0px
+    }
+
+    .menu{
+        top: 40px;
+        margin: 0px;
+    }
+
+    .menu_top_left,.menu_top_middle,.menu_top_right{
+        font-size: 14px;
+    }
+
     .portfolio{
-        width: 600px;
+        width: 400px;
+        height: 700px;
     }
 
     .imagebox{
+        width: 400px;
+        margin: 10px;
+    }
+
+    .image{
+        width: 300px;
+        height: auto;
+    }
+
+    .parragraph{
+        top: 300px;
+        left: 0px;
+        width: 100%
+    }
+
+    .parragraph-2{
+        top: 430px;
+        left: 0px;
+        width: 100%
+    }
+
+
+    .parragraph,.parragraph-2{
+        font-size: 10px
+    }
+
+    .adjust{
+        width: 300px;
+        height: 200px;
+    }
+
+
+    .name-tag{
         width: 300px;
     }
+
+    .proyect-1{
+        top: 150px;
+        left: 80px;
+    }
     
+    .proyect-2{
+        top: 370px;
+        left: 80px;
+    }
+    
+    .proyect-3{
+        top: 590px;
+        left: 80px;
+    }
+    
+    .proyect-4{
+        top: 700px;
+        left: 80px;
+    }
+    
+    .proyect-5{
+        top: 900px;
+        left: 80px;
+    }
+
+
+
 }
